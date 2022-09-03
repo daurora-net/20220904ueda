@@ -1,0 +1,662 @@
+body {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Helvetica,
+        "游ゴシック", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .8;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 10px;
+}
+
+.header-ttl {
+    width: 65px;
+    padding: 15px;
+    z-index: 2;
+}
+
+.header-ttl-link img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.header-nav-list {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-item-link {
+    font-weight: normal;
+    font-size: 1vw;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+/* eyecatch */
+.eyecatch {
+    position: relative;
+    background-image: url(../img/mv.png);
+    width: 100%;
+}
+
+.eyecatch-img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.catch-copy_top {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.catch-copy_main {
+    font-size: 3.4vw;
+    font-weight: bold;
+    padding-bottom: 1.5vw;
+}
+
+.catch-copy_sub {
+    font-weight: normal;
+    font-size: 1.15vw;
+}
+
+/* TOP */
+.top-txt {
+    background-color: #000;
+    padding: 5% 10%;
+    color: #fff;
+}
+
+.top-txt_ttl {
+    font-size: 2vw;
+    padding-bottom: 2vw;
+}
+
+.top-txt_desc {
+    font-size: 1.1vw;
+    line-height: 2vw;
+}
+
+.ttl {
+    color: #000;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto 2vw;
+}
+
+/* service */
+.top_service {
+    margin: 6vw 2vw;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.top-service-box {
+    width: 49%;
+}
+
+.top-service-box-img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.top-service-box-txt {
+    margin: 1vw 0 2vw;
+}
+
+.top-service-box-ttl {
+    font-size: 1.3vw;
+    font-weight: bold;
+    padding-bottom: 0.8vw;
+}
+
+.top-service-box-desc {
+    font-size: 1vw;
+    line-height: 1.5vw;
+}
+
+.btn {
+    width: 250px;
+    margin: 1vw auto;
+}
+
+.btn a {
+    text-align: center;
+    background-color: #CD0323;
+    color: #fff;
+    padding: 14px 0 12px;
+    text-decoration: none;
+    font-size: .9vw;
+    font-weight: bold;
+    display: block;
+}
+
+.blog-ttl {
+    width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.top-blog-box {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.practice__card {
+    width: 30%;
+}
+
+.card__img {
+    position: relative;
+}
+
+.card__cat {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    background-color: #B31667;
+    padding: 10px 20px;
+    border-radius: 15px 0 0 0;
+    width: 30px;
+}
+
+.card__img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.card__content {
+    padding: 1vw 0;
+    background-color: #fff;
+}
+
+.card__date {
+    font-size: .8vw;
+}
+
+.card__ttl {
+    color: #000;
+    padding: 0.2vw 0 0;
+    line-height: 25px;
+    font-size: 1vw;
+}
+
+.top_company {
+    background-color: #CD0323;
+    margin: 6vw 0;
+    height: 17vw;
+    line-height: 17vw;
+}
+
+.company-ttl {
+    color: #fff;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.contact {
+    margin: 70px auto;
+    text-align: center;
+}
+
+.contact-txt {
+    color: #000;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.contact_desc {
+    font-size: 1vw;
+    padding: 3vw;
+}
+
+/* scroll-top */
+.top {
+    height: 300px;
+    width: 100%;
+    background: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content {
+    height: 3000px;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.scroll-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #999;
+    opacity: .8;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* footer */
+footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 10vw;
+}
+
+.footer-txt {
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.footer-ttl {
+    width: 50px;
+    padding: 12px;
+}
+
+.footer-nav-list {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav-item-link {
+    font-weight: normal;
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* SERVICEページ */
+.eyecatch-service {
+    background-image: url(../img/mv.png);
+    width: 100%;
+    height: 16vw;
+    background-position: center;
+}
+
+.catch-copy {
+    line-height: 16vw;
+    color: #fff;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.service {
+    width: 1200px;
+    max-width: 100%;
+    margin: 6vw auto 4vw;
+}
+
+.service-box {
+    width: 100%;
+    display: flex;
+    margin-bottom: 3vw;
+}
+
+.service-box-img {
+    width: 25%;
+    vertical-align: bottom;
+}
+
+.service-box-txt {
+    padding-left: 2vw;
+}
+
+.service-box-ttl {
+    font-size: 1.6vw;
+    font-weight: bold;
+    padding-bottom: 0.8vw;
+}
+
+.service-box-desc {
+    font-size: 1.1vw;
+    line-height: 1.5vw;
+}
+
+/* BLOGページ */
+.blog {
+    width: 1200px;
+    max-width: 100%;
+    margin: 6vw auto 8vw;
+}
+
+.blog-box {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* COMPANY_DETAIL */
+.company_detail {
+    margin: 6vw auto 9vw;
+}
+
+.company_detail_table {
+    width: 1000px;
+    margin: 4vw auto;
+    border-bottom: 2px solid #D0D0D0;
+}
+
+.company_detail_table tr {
+    color: #000;
+    border-top: 2px solid #D0D0D0;
+    height: 55px;
+    line-height: 55px;
+}
+
+.company_detail_table th {
+    text-align: center;
+    width: 200px;
+}
+
+.company_detail_table td {
+    padding-left: 15px;
+    width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* nav */
+    .nav {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        background: #eee;
+        transition: .7s;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .nav ul {
+        padding-top: 80px;
+        width: 100%;
+    }
+
+    .nav ul li {
+        list-style-type: none;
+        margin-top: 50px;
+    }
+
+    .menu {
+        display: inline-block;
+        width: 36px;
+        height: 32px;
+        cursor: pointer;
+        position: relative;
+        left: 0px;
+        top: 12px;
+        z-index: 2;
+    }
+
+    .menu__line--top,
+    .menu__line--middle,
+    .menu__line--bottom {
+        display: inline-block;
+        width: 100%;
+        height: 4px;
+        background-color: #000;
+        position: absolute;
+        transition: 0.5s;
+    }
+
+    .menu__line--top {
+        top: 0;
+    }
+
+    .menu__line--middle {
+        top: 14px;
+    }
+
+    .menu__line--bottom {
+        bottom: 0;
+    }
+
+    .menu.open span:nth-of-type(1) {
+        top: 14px;
+        transform: rotate(45deg);
+    }
+
+    .menu.open span:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    .menu.open span:nth-of-type(3) {
+        top: 14px;
+        transform: rotate(-45deg);
+    }
+
+    .in {
+        transform: translateX(100%);
+    }
+
+    .in .header-nav-list {
+        width: 100%;
+        display: block;
+    }
+
+    .in .header-nav-item-link {
+        font-size: 3vw;
+    }
+
+    /* SP top */
+    .catch-copy_main {
+        font-size: 4.4vw;
+    }
+
+    .catch-copy_sub {
+        font-size: 2.5vw;
+    }
+
+    .top-txt {
+        padding: 5%;
+    }
+
+    .top-txt_ttl {
+        font-size: 3vw;
+    }
+
+    .top-txt_desc {
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+    }
+
+    .top_service {
+        margin: 9vw auto 13vw;
+        width: 95%;
+    }
+
+    .top-service-box {
+        width: 100%;
+    }
+
+    .ttl {
+        font-size: 4vw;
+    }
+
+    .top-service-box-ttl {
+        font-size: 3vw;
+        padding-bottom: 1.2vw;
+    }
+
+    .top-service-box-desc {
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+
+    .top-service-box-txt {
+        margin: 2vw 0 5vw;
+    }
+
+    .btn {
+        width: 50%;
+    }
+
+    .btn a {
+        font-size: 2.7vw;
+    }
+
+    .top_blog {
+        margin: 9vw auto 13vw;
+        width: 95%;
+    }
+
+    .top-blog-box {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .practice__card {
+        width: 100%;
+    }
+
+    .card__content {
+        margin: 2vw 0 5vw;
+        padding: 0;
+    }
+
+    .card__date {
+        font-size: 2.5vw;
+        padding-bottom: .7vw;
+    }
+
+    .card__ttl {
+        font-size: 3vw;
+    }
+
+    .company-ttl {
+        font-size: 3vw;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact-txt {
+        font-size: 4vw;
+    }
+
+    .contact_desc {
+        font-size: 3vw;
+    }
+
+    .footer-nav-list {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    footer {
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer-txt {
+        order: 2;
+        margin: 1vw auto 0;
+        width: 100%;
+    }
+
+    .footer-nav {
+        order: 1;
+        margin: 4vw auto 0;
+        width: 100%;
+    }
+
+    .footer-nav-item-link {
+        font-size: 2.5vw;
+    }
+
+    /* 子ページ title */
+    .catch-copy {
+        font-size: 4vw;
+    }
+
+    /* SP service */
+
+    .service {
+        max-width: 95%;
+    }
+
+    .service-box {
+        display: block;
+    }
+
+    .service-box-img {
+        width: 100%;
+    }
+
+    .service-box-txt {
+        padding: 2vw 0;
+    }
+
+    .service-box-ttl {
+        font-size: 3vw;
+        padding-bottom: 1.8vw;
+    }
+
+    .service-box-desc {
+        font-size: 2.6vw;
+        line-height: 3vw;
+    }
+
+    /* SP blog */
+    .blog {
+        width: 95%;
+    }
+
+    /* company_detail */
+    .company_detail_table {
+        max-width: 100%;
+    }
+
+    .company_detail_table th {
+        width: 30%;
+    }
+
+    .company_detail_table td {
+        padding-left: 0;
+        width: 70%;
+    }
+
+
+}
